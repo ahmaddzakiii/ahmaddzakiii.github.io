@@ -4,78 +4,73 @@ html {
 
 body {
 	margin-bottom: 100px;
-	background-color: lightblue;
+	background-color: #015668;
 }
 
-img	{
-	margin-top: 10px;
+.jumbotron {
+	background-color: #263f44;
+	min-height: 100px;
+	padding-top: 110px;
+	margin-bottom: 0;
+}
+.jumbotron img {
+	width: 150px;
+	border: 2px solid #fff1cf;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+.jumbotron h1, h5 {
+	color: #fff1cf;
+}
+
 hr {
 	width: 250px;
-	border-top: 3px solid #999;
+	border-top: 3px solid #263f44;
+}
+
+section {
+	background-color: #ffd369;
+}
+
+.aboutme {
+	min-height: 400px;
+	padding-top: 25px;
+}
+
+.aboutme h2, p {
+	color: #263f44;
+}
+
+.skill {
+	min-height: 550px;
+	padding-top: 25px;
+	color: #263f44;
+}
+
+.portofolio {
+	min-height: 400px;
+	padding-top: 25px;
+	color: #263f44;
+}
+
+.contact {
+	min-height: 450px;
+	color: #263f44;
 }
 
 footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 100px;
+	height: 80px;
 }
 
 footer p {
 	color: white;
-	line-height: 100px;
+	line-height: 80px;
 }
 
-.jumbotron {
-	background-color: #313939;
-}
-.jumbotron img {
-	width: 150px;
-	border: 2px solid white;
-}
-
-.jumbotron h1{
-	color: #7EABAF;
-}
-
-.jumbotron p {
-	color: #7EABAF;
-}
-
-.aboutme {
-	background-color: lightblue;
-	min-height: 350px;
-}
-
-.aboutme h2 hr {
-	color: #313939;
-}
-
-.skill {
-	background-color: whitesmoke;
-	padding: 30px 0 30px 0;
-}
-
-.portofolio {
-	background-color: lightblue;
-	margin-top: 30px;
-	min-height: 330px;
-}
-
-.portofolio img {
-	margin-top: 10px;
-}
-
-
-.contact {
-	background-color: whitesmoke;
-	min-height: 220px;
-	padding-top: 30px;
-}
 
 /*Overlay*/
 .overlay {
@@ -121,5 +116,3 @@ footer p {
 	border: 1px solid white;
 	line-height: 14px;
 }
-/*biru muda #7EABAF */
-/*biru tua #313939 */
