@@ -1,0 +1,103 @@
+body{
+	background-image: url(images/mm.jpg);
+	background-size: cover;
+}
+
+.bg-custom {
+	background: #263f44;
+}
+
+.judul {
+	color: #ffd369;
+
+}
+
+.far {
+	color: #ffd369;
+}
+
+.content {
+	background-color: rgba(0, 0, 0, 0.4);
+	margin-top: 65px;
+}
+
+.sidebar {
+	float: left;
+
+}
+
+.user {
+	background-color:  #263f44;
+}
+
+.user img {
+	float: left;
+	max-width: 70px;
+	border-radius: 30%;
+	padding: 5px;
+}
+
+.user p {
+	color: #ffd369;
+	margin-top: 10px;
+}
+
+.mainwrapper {
+	background-color: #263f44;
+	float: right;
+	min-height: 400px;
+}
+
+.judulmain {
+	color: #ffd369;
+	padding-top: 10px;
+}
+
+.mainwrapper .main {
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.main .thead {
+	color: #ffd369;
+	background: #263f44;
+}
+
+.main .isitabel {
+	color: #ffd369;
+}
+
+.formaddtask {
+	color: #ffd369;
+	margin-top: 10px;
+}
+
+.formedittask {
+	min-height: 400px;
+	color: #ffd369;
+}
+
+footer {
+	background-color: #263f44;
+	color: white;
+	padding-top: 11px;
+}
+
+/*Clearfix*/
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.cf:after {
+	clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+ .cf {
+ 	*zoom: 1;
+ }
